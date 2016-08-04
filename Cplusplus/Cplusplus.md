@@ -10,3 +10,5 @@ g++ -o BasicProgram BasicProgram.cpp
 ```
 
 That takes the code file, BasicProgram.cpp, as input and outputs the compiled version as a file called BasicProgram.
+
+I've also included a makefile that'll allow you to just use the `make` command to compile and `make clean` to clean up the files after you're done, assuming you have Make installed.
