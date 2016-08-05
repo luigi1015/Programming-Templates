@@ -1,7 +1,7 @@
 all: BasicProgram
 
 BasicProgram: BasicProgram.cpp
-	g++ -std=c++11 -Wall -o BasicProgram BasicProgram.cpp
+	g++ -std=c++11 -Wall -g -o BasicProgram BasicProgram.cpp
 
 clean:
 	if [ -e BasicProgram ]; then rm BasicProgram; fi;

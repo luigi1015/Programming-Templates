@@ -1,7 +1,7 @@
 all: BasicProgram
 
 BasicProgram: BasicProgram.c
-	gcc -Wall -o BasicProgram BasicProgram.c
+	gcc -Wall -g -o BasicProgram BasicProgram.c
 
 clean:
 	if [ -e BasicProgram ]; then rm BasicProgram; fi;
