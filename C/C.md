@@ -11,4 +11,10 @@ gcc -o BasicProgram BasicProgram.c
 
 That takes the code file, BasicProgram.cpp, as input and outputs the compiled version as a file called BasicProgram.
 
+Alternatively you can compile with debugging info and showing all warnings with the following command:
+
+```
+gcc -Wall -g -o BasicProgram BasicProgram.c
+```
+
 I've also included a makefile that'll allow you to just use the `make` command to compile and `make clean` to clean up the files after you're done, assuming you have Make installed.
