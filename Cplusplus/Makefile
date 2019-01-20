@@ -1,4 +1,4 @@
-all: BasicProgram
+default: BasicProgram
 
 BasicProgram: BasicProgram.cpp
 	g++ -std=c++11 -Wall -g -o BasicProgram BasicProgram.cpp

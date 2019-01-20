@@ -1,4 +1,4 @@
-all: BasicProgram
+default: BasicProgram
 
 BasicProgram: BasicProgram.c
 	gcc -Wall -g -o BasicProgram BasicProgram.c
