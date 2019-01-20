@@ -1,3 +1,7 @@
+//package net.codehobby;//Package statement example
+
+//import java.awt.*;//Import example
+
 public class HelloWorld
 {
 	private String displayText = "";
